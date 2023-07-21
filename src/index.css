@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: green;
+  /*body nin yüksekliği olmazsa sıkıntıdır*/
+  height:100vh;
+}
+
+/**/
+
+.lang-card{
+
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lang-logo{
+  transition: transform 0.5s;
+}
+
+.lang-card:hover .lang-logo{
+
+  transform: scale(1.4);
+}
