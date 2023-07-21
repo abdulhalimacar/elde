@@ -9,7 +9,7 @@ const Card = ()=>{
     
     return(
         <Container className="rounded-4 mt-4 p-4" style={{background:"#f48b29"}}>
-            <h1 className="my-3" style={{color:"white"}}>Language</h1>
+            <h1 className="my-3" style={{color:"red"}}>Language</h1>
             <Row className="g-3 justify-content-center">
                 {data.map((item,index)=> 
                 <Col sm={12} md={6} lg={2} key={index}>
